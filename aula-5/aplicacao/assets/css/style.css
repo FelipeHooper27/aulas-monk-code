@@ -17,10 +17,9 @@
 }
 /*header*/
 .top{
-    background-color: yellow;
+    background-color: black;
     padding: 10px; 
     .top-container{
-        background-color: orange;
         color: #fff;
         display: flex;
         flex-direction: row;
@@ -28,10 +27,11 @@
         justify-content: space-between; 
         padding: 10px;   
         .logo{
-            background-color: blue;
+            h1 {
+                font-size: 2em;
+            }
         }
         .container-links{
-            background-color: green;
             .links{
                 display: flex;
                 flex-direction: row;
@@ -48,6 +48,35 @@
 
 /*content*/
 .content{
-    background-color: blue;
     min-height: 100svh;
+}
+
+/*banner*/
+.banner{
+    background-color: crimson;
+    .container{
+        margin: 0 auto;
+        padding: 17.8em 0;
+        text-align: center;
+        width: 98%;
+    }
+}
+
+/* about-us*/
+.about-us {
+    .container {
+        margin: 0 auto;
+        padding: 4em 0;
+        width: 98%;
+        .row {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            .col-left, .col-right {
+                padding: 15px;
+                width: 50%;
+            }
+
+        }
+    }
 }
